@@ -1,0 +1,8 @@
+ler = input("digite algo: ")
+print(type(ler))
+print(f'tem espaços? {ler.isspace()}')
+print(f'é um numero? {ler.isnumeric()}')
+print(f'é alfabetico? {ler.isalpha()}')
+print(f'é um alfanumerico? {ler.isalnum()}')
+print(f'esta em minuscula? {ler.islower()}')
+print(f'esta em maiuscula? {ler.isupper()}')
