@@ -11,4 +11,5 @@ def matching_strings(strings, queries):
 strings = ['ab', 'ab', 'abc']
 queries = ['ab', 'abc', 'bc']
     
-print(matching_strings(strings, queries))  # [2, 1, 0]
+print(matching_strings(strings, queries)) 
+print(matching_strings(['aba', 'baba', 'aba', 'xzxb'], ['aba', 'xzxb', 'ab']))
