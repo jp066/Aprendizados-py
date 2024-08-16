@@ -1,7 +1,8 @@
 from node import Node
 
 class linkedList:
-    # __init__ é como um construtor em flutter
+    # __init__ é como um construtor em flutter. this{} em dart
+    # self: É uma referência ao próprio objeto dentro de uma classe ou método.
     def __init__(self):
         self.head = None
         self._size = 0
