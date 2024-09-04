@@ -6,7 +6,21 @@
 # 
 # C) Quais foram os números pares.
 
-numeros = tuple(input(f'digite 4 numeros: '))
+num = (int(input('Digite um número: ')))
+num2 = (int(input('Digite um número: ')))
+num3 = (int(input('Digite um número: ')))
+num4 = (int(input('Digite um número: ')))
 
-print(numeros)
+tupla = (num, num2, num3, num4)
 
+print(f'O número 9 apareceu {tupla.count(9)} vezes.')
+
+if 3 in tupla:
+    print(f'O número 3 apareceu na posição {tupla.index(3)}')
+else:
+    print('O número 3 não foi digitado.')
+    
+print('Os números pares digitados foram: ', end='')
+for num in tupla:
+    if num % 2 == 0:
+        print(num, end=' ')
