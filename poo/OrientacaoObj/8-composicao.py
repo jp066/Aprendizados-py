@@ -20,7 +20,7 @@ class Game:
 class GameStudio:
     def __init__(self, name=""):
         self.name = name
-        self.games = []
+        self.games = [] # Lista de jogos, criada na classe GameStudio
     
     def add_game(self, game):
         self.games.append(game)
@@ -38,11 +38,15 @@ game1 = Game("The Legend of Zelda", 2017, False, 9.5)
 game2 = Game("Fortnite", 2017, True, 8.0)
 game3 = Game("The Last of Us II", 2020, False, 9.0)
 
-studio = GameStudio("Awesome Games")
-studio.add_game(game1)
+studio = GameStudio("Awesome Games") # foi passada so name
+studio.add_game(game1) # a classe instanciada recebe um objeto da classe Game
 studio.add_game(game2)
+# composição porque a classe GameStudio é composta por objetos da classe Game
 
-studio.evaluate_studio_quality()
+studio.evaluate_studio_quality() 
 
 for game in studio.games:
     game.technical_sheet()
+    
+    
+# Composição é um tipo de relacionamento entre classes, onde uma classe é composta por objetos de outra classe.

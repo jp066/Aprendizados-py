@@ -41,3 +41,7 @@ game2.average()
 
 # Exibindo o número total de jogos criados
 print(f"Total de jogos criados: {Game.total_games}")
+
+# variavel de classe é uma variavel que é compartilhada por todos os objetos de uma classe.
+# ela é acessada pela classe, e não pelo objeto. Seu uso é indicado quando se deseja armazenar
+# um valor que seja comum a todos os objetos da classe.

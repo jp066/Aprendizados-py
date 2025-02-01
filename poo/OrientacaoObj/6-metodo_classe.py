@@ -44,3 +44,31 @@ game2.evaluate(6.5)
 game2.evaluate(7.5)
 
 Game.print_total_games_stats()
+
+
+# method class é um método que é acessado pela classe, e não pelo objeto.
+# Ele é utilizado quando se deseja criar um método que seja comum a todos os objetos da classe.
+# analogia da vida real: seria como um método que é comum a todos os funcionários de uma empresa, tipo calcular o salário.
+# ex:
+# class Funcionario:
+#     def __init__(self, nome, salario):
+#         self.nome = nome
+#         self.salario = salario
+#
+#     def calcular_salario(self):
+#         return self.salario
+#
+#     @classmethod
+#     def calcular_salario_com_imposto(cls, salario):
+#         return salario - (salario * cls.imposto)
+#
+#     @staticmethod
+#     def calcular_salario_com_imposto(salario, imposto):
+#         return salario - (salario * imposto)
+#
+# funcionario1 = Funcionario("João", 1000)
+# print(funcionario1.calcular_salario())
+# print(Funcionario.calcular_salario_com_imposto(1000))
+# print(Funcionario.calcular_salario_com_imposto(1000, 0.1))
+# print(funcionario1.calcular_salario_com_imposto(1000))
+# print(funcionario1.calcular_salario_com_imposto(1000, 0.1))

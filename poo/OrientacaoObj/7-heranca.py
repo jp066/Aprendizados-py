@@ -42,3 +42,6 @@ mult_game.technical_sheet()
 
 sing_game = SinglePlayerGame("The Last of Us 2", 2020, 9.5, "Emocionante história de sobrevivência e vingança")
 sing_game.technical_sheet()
+
+
+# herança é um conceito da orientação a objetos que permite criar uma nova classe a partir de uma classe já existente. como se fosse um molde e pudesse ser reaproveitado, além de adicionar outras informações.
