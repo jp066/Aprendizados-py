@@ -1,0 +1,3 @@
+'arros', 3
+'carne', 59
+'refri', 8
