@@ -2,7 +2,7 @@
 # sem a necessidade de usar loops, é basicamente uma forma de criar listas de forma mais rápida e limpa
 # por que usar list comprehession? por que é mais rápido e limpo que usar loops
 
-# sintaxe: [expression for item in list if condition]
+# sintaxe: [saida for item in iterável if condição]
 
 
 moviesList = ['star wars', 'star trek', 'gattaca', 'alien', 'terminator', 'inception', 'matrix']
